@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "npx playwright test",
+    // "test": "npx playwright test",
     "test:cucumber": "cucumber-js --require-module ts-node/register --require steps/**/*.ts --format progress",
     "test:cucumber:watch": "cucumber-js --require-module ts-node/register --require steps/**/*.ts --format progress --watch"
   },
